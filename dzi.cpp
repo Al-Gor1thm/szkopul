@@ -21,10 +21,12 @@ int main()
     if (g < k)
     { //key too large
         cout << "NIE";
+        return 0;
     }
     else if (g == k)
     { //key just right
         cout << n - k;
+        return 0;
     }
     else
     {
