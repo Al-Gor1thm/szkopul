@@ -8,12 +8,12 @@ int main(){
     int n, m; cin >> n;
     bool hmm;
     int a[n];
-    for(auto& val : a){
+    for(auto val : a){
         cin >> val;
     }
     cin >> m;
     int b[m];
-    for(auto& val : b){
+    for(auto val : b){
         cin >> val;
     }
     for(int i = 0; i < m; i++){

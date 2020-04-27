@@ -7,10 +7,10 @@ int main(){
     cin.tie(NULL);
     int n, m; cin >> n >> m;
     int tower[n];
-    for(auto&val: tower)
+    for(auto val: tower)
         cin >> val;
     int ppl[m];
-    for(auto&val : ppl)
+    for(auto val : ppl)
         cin >> val;
     int answers[m] = {};
     for(int i = 0; i < m; i++){

@@ -17,7 +17,7 @@ int main()
     cin.tie(NULL);
     int n; cin >> n;
     string arr[n];
-    for(auto& val : arr)
+    for(auto val : arr)
         cin >> val;
     sort(arr, arr+n, compare);
     for(int i = 0; i < n; i++)
