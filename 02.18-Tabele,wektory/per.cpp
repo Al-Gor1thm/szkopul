@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
+    ios_base::sync_with_stdio(0);
     int n, g, i;
     vector<int> stuff;
     cin >> n;

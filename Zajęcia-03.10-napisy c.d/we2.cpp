@@ -18,7 +18,7 @@ int countDiff(string a)
 
 int main()
 {
-    ios::sync_with_stdio(false);
+    ios::sync_with_stdio(0);
     cin.tie(NULL);
     string large, curr;
     int maxl = 0;

@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-	ios::sync_with_stdio(false);
+	ios::sync_with_stdio(0);
 	int n, lsum = 0, rsum, lowest; cin >> n;
 	int a[n];
 	for(int i = 0; i < n; i++){

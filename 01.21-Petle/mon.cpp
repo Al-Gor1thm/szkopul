@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    ios_base::sync_with_stdio(false);
+    ios_base::sync_with_stdio(0);
     int awers, rewers, monety;
     bool typ;
     awers = 0;

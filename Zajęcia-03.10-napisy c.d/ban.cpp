@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
+    ios::sync_with_stdio(0);
     cin.tie(NULL);
     short tables = 0, n, currid = -1, last; cin >> n;
     short a[n];
